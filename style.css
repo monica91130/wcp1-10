@@ -16,6 +16,12 @@ header {
 	height: 70px;
 	background-color: #EC715F;
 }
+h1 {
+	font-size: 64px;
+}
+h2 {
+	font-size: 20px;
+}
 h3 {
 	padding-top: 90px;
 	font-size: 32px;
@@ -30,7 +36,7 @@ h3::after {
 	margin:0 auto;
 	margin-top: 8px;
 }
-h4 {
+.section-text {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 16px;
@@ -67,7 +73,7 @@ p {
 	font-size: 16px;
 	display: inline-block;
 	margin: 0 30px;
-	margin-top: 22px;
+	line-height: 70px;
 }
 
 .main-visual {
@@ -81,11 +87,9 @@ p {
 }
 .main-visual-tytle {
 	padding-top: 200px;
-	font-size: 64px;
 }
 .main-visual-text {
 	padding-top: 10px;
-	font-size: 20px;
 }
 
 .portfolio {
@@ -246,6 +250,12 @@ footer {
 	header {
 		height: 50px;
 	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 18px;
+	}
 	h5 {
 		text-align: center;
 	}
@@ -276,16 +286,10 @@ footer {
 	.main-visual {
 		background-image: url(img/code.png);
 	}
-	.mian-vitual-text {
-		font-size: 18px;
-	}
 
 	.portfolio {
 		width: 100%;
-	}
-	.portfolio-text {
-		width: 90%;
-		margin: 0 auto;
+		padding: 0 5%;
 	}
 	.portfolio-image {
 		width: 100%
